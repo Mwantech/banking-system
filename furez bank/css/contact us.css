@@ -1,0 +1,58 @@
+/* CSS Styles */
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #b8afaf;
+  }
+  form {
+    background-color: #f0f1eb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(200, 243, 6);
+    border-radius: 4px;
+    resize: none;
+    margin-bottom: 16px;
+  }
+  input[type="submit"] {
+    background-color: #0a31e0;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #0aaa05;
+  }
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: auto;
+    align-items: center;
+  }
+  
+  .social-icons a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    text-indent: -9999px; /* hide the text */
+  }
+
+ 

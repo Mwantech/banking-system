@@ -1,0 +1,26 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.column {
+    flex: 1;
+    padding: 20px;
+    border-right: 1px solid #0c0b0b;
+    
+}
+.column:last-child {
+    border-right: none;
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+p{
+    text-align: center;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+    <title>FUREZ BANK</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/banking.css">
+  </head>
+<body>
+    <header>
+        <div class="container">
+          <div class="navbar">
+            <div class="logo">
+              <span>F</span>UREZ<span>B</span>ANK
+            </div>
+            <nav>
+                <ul id="menulist">
+                  <li><a href="index.html">log out</a></li>
+                </ul>
+            </div>
+        </div>
+      </header>
+      <div class="container">
+        <div class="balance">
+          <h3>Balance: ksh</h3>
+          <p id="balance">ksh-</p>
+        </div>
+    
+        <div>
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" placeholder="Enter amount">
+        </div>
+    
+        <div class="buttons">
+            <button id="withdrawBtn" class="roundBtn">Withdraw</button>
+            <button id="balanceBtn" class="roundBtn">Balance Inquiry</button>
+            <button id="statementBtn" class="roundBtn">Request Statement</button>
+            <button id="depositBtn" class="roundBtn">Deposit</button>
+            <button id="sendBtn" class="roundBtn">Send Money</button>
+        </div>
+    
+        <div class="transaction-statement">
+          <h3>Bank Transaction Statement:</h3>
+            <ul id="statement"></ul>
+        </div>
+    
+        <div class="finance-tracker">
+          <h3>Finance Tracker:</h3>
+          <ul id="tracker">
+            <li>
+              <span>Money Withdrawn:</span>
+              <span id="withdrawn">-</span>
+            </li>
+            <li>
+              <span>Money Sent:</span>
+              <span id="sent">-</span>
+            </li>
+            <li>
+              <span>Money Deposited:</span>
+              <span id="deposited">-</span>
+            </li>
+            <li>
+              <span>Expenses:</span>
+              <span id="expenses">-</span>
+            </li>
+          </ul>
+        </div>
+        </div>
+      <footer>
+        <div class="contact-us">
+            <h2>Contact Us</h2>
+            <div class="social-media-icons">
+              <a href="https://www.facebook.com/joshua.mwangi.33886?mibextid=ZbWKwL" target="_blank"><img src="imgs/facebook.png" alt="Facebook"></a>
+              <a href="https://twitter.com/mwantech?t=sOIuFd1DodqIbflYe4wddA&s=09" target="_blank"><img src="imgs/twitter-1.png" alt="Twitter"></a>
+              <a href="https://instagram.com/joshua_s_mwan?igshid=ZGUzMzM3NWJiOQ==" target="_blank"><img src="imgs/instagram.png" alt="Instagram"></a>
+              <a href="https://wa.me/+254740951941" target="_blank"><img src="imgs/whatsapp.png" alt="whatsapp"></a>
+            </div>
+          </div>
+        <p>&copy; 2023&2024 FUREZ.BANK All rights reserved.</p>
+    </footer>
+</body>
+<script src="js/banking.js"></script>
+</html>

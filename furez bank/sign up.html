@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+    <title>FUREZ BANK</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/signup.css">
+  </head>
+<body>
+    <header>
+        <div class="container">
+          <div class="navbar">
+            <div class="logo">
+              <span>F</span>UREZ<span>B</span>ANK
+            </div>
+            <nav>
+              <ul id="menulist">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about us.html">ABOUT</a></li>
+                <li><a href="contact us.html">CONTACT US</a></li>
+                <li><a href="login.html">LOGIN</a></li>
+                <li><a href="sign up.html">SIGN UP</a></li>
+                <li><a href="help.html">HELP</a></li>
+              </ul>
+            </nav>
+            <img src="imgs/menu.png" class="menu-icon" onclick="togglemenu()">
+          </div>
+        </div>
+      </header>
+      <form action="banking.html">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+    
+        <label for="middleName">Middle Name:</label>
+        <input type="text" id="middleName" name="middleName">
+    
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+    
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="tel" id="phoneNumber" name="phoneNumber" required>
+    
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+          <option value="KENYA">KENYA</option>
+          <option value="UK">UK</option>
+          <option value="Canada">Canada</option>
+          <option value="tanzania">TANZANIA</option>
+          <option value="uganda">UGANDA</option>
+          <option value="ethiopia">ETHIOPIA</option>
+          <option value="rwanda">RWANDA</option>
+          <option value="nigeria">NIGERIA</option>
+          <!-- Add more country options as needed -->
+        </select>
+    
+        <label for="idNumber">ID Number:</label>
+        <input type="text" id="idNumber" name="idNumber" required>
+    
+        <label for="kraPin">KRA PIN:</label>
+        <input type="text" id="kraPin" name="kraPin" required>
+    
+        <div class="radio-container">
+            <label for="male">male</label>
+            <input type="radio" id="male" name="gender">
+
+            <label for="female">female</label>
+            <input type="radio" id="female" name="gender">
+
+            <label for="other">other</label>
+            <input type="radio" id="other" name="gender">
+
+          </div>
+        <input type="submit"  value="Submit">
+        <p>i have an account <a href="login.html">login</a></p>
+    </form>
+      <footer>
+          <div class="contact-us">
+              <h2>Contact Us</h2>
+              <div class="social-media-icons">
+                <a href="https://www.facebook.com/joshua.mwangi.33886?mibextid=ZbWKwL" target="_blank"><img src="imgs/facebook.png" alt="Facebook"></a>
+                <a href="https://twitter.com/mwantech?t=sOIuFd1DodqIbflYe4wddA&s=09" target="_blank"><img src="imgs/twitter-1.png" alt="Twitter"></a>
+                <a href="https://instagram.com/joshua_s_mwan?igshid=ZGUzMzM3NWJiOQ==" target="_blank"><img src="imgs/instagram.png" alt="Instagram"></a>
+                <a href="https://wa.me/+254740951941" target="_blank"><img src="imgs/whatsapp.png" alt="whatsapp"></a>
+              </div>
+            </div>
+          <p>&copy; 2023&2024 FUREZ.BANK All rights reserved.</p>
+      </footer>
+</body>
+<script src="js/app.js"></script>
+</html>

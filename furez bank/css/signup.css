@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+
+  input[type="text"],
+  input[type="tel"],
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+  }
+
+  .radio-container {
+    display: flex;
+    
+  }
+  
+  .radio-container input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .radio-container label {
+    
+  }
+  
+
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
